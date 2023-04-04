@@ -1,4 +1,4 @@
-import React,{useSatate, useState} from "react";
+import React,{useState} from "react";
 
 function User(){
     const usersList = [
@@ -22,6 +22,7 @@ function User(){
     }
     return(
         <>
+        <h1 style={{textAlign: 'center'}}> useSate Hook in React.</h1>
         <h3>useState hook with array type. </h3>
         <form>
             <label>

@@ -2,10 +2,11 @@ import React from 'react';
 import './App.css';
 import Link from './props&PropTypes/Link';
 import UserC from './classBasedComponents/UserC';
-import Comment from './UseStates/Comment';
-import Loading from './UseStates/Loading';
-import UserForm from './UseStates/UserForm';
-import User from './UseStates/User';
+import Comment from './useStates/Comment';
+import Loading from './useStates/Loading';
+import UserForm from './useStates/UserForm';
+// import User from './useStates/User';
+import Effectmain from './useEffects2/Effectmain';
 
 // function App() {
 //   // const element = <h1> React app with Bhawansh Narain Saxena</h1>;
@@ -35,7 +36,6 @@ function App(){
   const users = ['bhawansh', 'vaishnavi'];
   return(
     <>
-    <h1 style={{textAlign: 'center'}}> useSate Hook in React.</h1>
       {/* <Link 
       title="React"
       content="content1"
@@ -47,7 +47,8 @@ function App(){
     {/* <Comment />
     <Loading /> */}
     {/* <UserForm /> */}
-    <User />
+    {/* <User /> */}
+    <Effectmain />
     </>
     
   )

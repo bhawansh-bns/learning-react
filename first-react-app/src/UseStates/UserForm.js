@@ -5,7 +5,7 @@ function UserForm(){
         username:"",
         password:""
     }
-    const [user, setUser] = useState({});
+    const [user, setUser] = useState(inititalObject);
 
     function handleChange(e){
         
@@ -14,7 +14,6 @@ function UserForm(){
             [e.target.name]: e.target.value, //e is the event, which in this case is change, 
             // target is the element that triggered the event, which in this case is the input, 
             // and value is the value of the input element
-
         })
         
     }
@@ -22,6 +21,7 @@ function UserForm(){
 
     return(
         <>
+        <h1 style={{textAlign: 'center'}}> useSate Hook in React.</h1>
         <h3> UseState with Object Type.</h3>
         <p>{JSON.stringify(user)}</p>
         <form> 
