@@ -12,6 +12,7 @@ function setTimer(){
         'div',
         null,
         React.createElement('h1', null, 'React'),
+        React.createElement('div', null, React.createElement('input', {type: "number"})),
         React.createElement('div', null, React.createElement('input', {type: "text"})),
         React.createElement('p', null, new Date().toLocaleTimeString())
     );
